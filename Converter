@@ -1,0 +1,15 @@
+miles = float(1.6)
+km = input("Hello, welcome. You can convert your kilometers into miles here. Please, typ in an amount of kilometers: ")
+print(float(miles) * float(km))
+
+answer = "No"
+
+while True:
+    question = input("Would you like to do another conversion? Answer Yes or No: ")
+
+    if question == answer:
+        print("Thank you for using us! Please come again")
+        break
+    else:
+        km = input("Hello, welcome. You can convert your kilometers into miles here. Please, typ in an amount of kilometers: ")
+        print(float(miles) * float(km))
