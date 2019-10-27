@@ -1,0 +1,15 @@
+input = int(input("Please, choose a number between 1 and 100: "))
+
+a = 0
+while a < 100:
+    a += 1
+    if a == input:
+        break
+    elif int(a % 3) == 0 and int(a % 5) == 0:
+        print("fizzbuzz")
+    elif int(a % 3) == 0:
+        print("fizz")
+    elif int(a % 5) == 0:
+        print("buzz")
+    else:
+        print (a)
